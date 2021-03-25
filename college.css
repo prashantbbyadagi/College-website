@@ -1,0 +1,85 @@
+.page
+{
+    width: 1490px;
+    height: 940px;
+  /* background-color: blue; */
+  border: 2px dashed blue;   
+}
+.headerpart
+{
+ width: 1490px;
+ height: 250px;
+  background-color: rgb(114, 158, 207);
+/* to contrl the repeatation of the image */
+background-repeat: no-repeat; 
+}
+.navigationbar
+{
+height: 25px;
+width: 1490px;
+border-style:groove;
+margin-top:7px;;
+background-color: cornflowerblue;
+}
+
+.navigationbar a
+{
+    color: rgb(245, 246, 251);
+    text-decoration: none;
+}
+.navigationbar a:hover
+{
+  background-color: rgb(245 , 246, 241);
+color: rgb(170, 168, 37);
+}
+.bodypart
+{
+    width: 1490px;
+    height: 600px;
+    border: groove;
+    margin-top:5px;
+}
+.bodypart .imagepart
+{
+    width: 550px;
+    height: 300px;
+    border: groove;
+    /* background-image: url(./images/converted.gif); */
+    background-repeat: no-repeat;
+    display: inline;
+}
+.bodypart .newspart
+{
+    width: 250px;
+    height: 500px;
+    border: groove;
+    float: right;
+}
+.bodypart .newspart h2
+{
+   color:green;
+   margin-left: 5px; 
+}
+.bodypart .newspart .news
+{
+width: 250px;
+height:40px;
+}
+.bodypart .newspart .news h4 
+{
+    color: blue;
+
+}
+.bodypart h2
+{
+    color: red;
+    text-align:center ;
+}
+.footerpart
+{
+height: 25px;
+width: 1490px;
+border-style:groove;
+margin-top:7px;;
+background-color: cornflowerblue;
+}
